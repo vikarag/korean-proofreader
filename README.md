@@ -55,12 +55,12 @@ cp config.example.yaml config.yaml
 python3 main.py
 ```
 
-The server listens on `0.0.0.0:8787` by default.
+The server listens on `0.0.0.0:8788` by default.
 
 Smoke test:
 
 ```bash
-curl -s -X POST http://localhost:8787/proofread \
+curl -s -X POST http://localhost:8788/proofread \
   -H 'Content-Type: application/json' \
   -d '{"text":"이 함수를 진행합니다.","return_diff":true}'
 ```
