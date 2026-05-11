@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.omc/
+
+# local config — contains API keys; copy config.example.yaml to config.yaml and fill in your keys
+config.yaml
+
+# runtime state
+cache.db
+logs/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/

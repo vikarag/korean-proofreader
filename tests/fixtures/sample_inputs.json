@@ -1,0 +1,12 @@
+{
+	"korean_only": "이 함수는 데이터를 처리합니다. 사용자가 입력한 값을 검증한 후 결과를 반환합니다.",
+	"mixed_code": "다음 코드를 실행하세요:\n```python\ndef hello():\n    print('world')\n```\n결과가 출력됩니다.",
+	"mixed_english": "API 서버를 시작합니다. Use `uvicorn main:app` to run the server.",
+	"english_only": "This is a pure English sentence with no Korean content at all.",
+	"chinese_llm_errors": "이 함수를 진행합니다. 데이터를 입수합니다. 조사를 실시합니다. 할수있습니다.",
+	"with_urls": "자세한 내용은 https://example.com/docs 를 확인하세요. 설정 파일은 /etc/config.yaml 에 있습니다.",
+	"with_headings": "# 제목입니다\n이것은 본문 텍스트입니다.\n## 하위 제목\n더 많은 내용이 있습니다.",
+	"with_list": "- 첫 번째 항목입니다\n- 두 번째 항목입니다\n- 세 번째 항목입니다",
+	"empty": "",
+	"mixed_korean_code": "이 코드를 실행합니다:\n```\nconsole.log('hello')\n```\n결과를 확인하세요."
+}

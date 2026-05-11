@@ -1,0 +1,32 @@
+### 조사 오류 (Particle Errors)
+- WRONG: 이 함수를 매개변수를 받습니다 → RIGHT: 이 함수가 매개변수를 받습니다
+- WRONG: 데이터는 처리합니다 → RIGHT: 데이터를 처리합니다
+- WRONG: 사용자가 시스템을 작동합니다 → RIGHT: 사용자가 시스템을 작동합니다 (correct)
+
+### 어순 간섭 (Word Order from Chinese SVO)
+- WRONG: 우리는 먼저 데이터를 분석하고 결과를 확인합니다 → RIGHT: 우리는 먼저 데이터를 분석한 뒤 결과를 확인합니다
+- WRONG: 이 기능은 파일을 읽고 데이터를 처리합니다 → RIGHT: 이 기능은 파일을 읽어 데이터를 처리합니다
+
+### 직역체 (Calque from Chinese)
+- WRONG: 진행합니다 → RIGHT: 실행합니다 / 시작합니다 (context-dependent)
+- WRONG: 이 작업을 실시합니다 → RIGHT: 이 작업을 수행합니다 / 이 작업을 합니다
+- WRONG: 서버에 대한 요청을 보냅니다 → RIGHT: 서버에 요청을 보냅니다
+- WRONG: 이것은 ...에 해당합니다 → RIGHT: 이것은 ...입니다 / 이는 ...에 해당합니다
+
+### 띄어쓰기 (Spacing Errors)
+- WRONG: 할수있습니다 → RIGHT: 할 수 있습니다
+- WRONG: 데이터베이스에 연결합니다 → RIGHT: 데이터베이스에 연결합니다 (correct, but check compound nouns)
+- WRONG: 알겠습니다 → RIGHT: 알겠습니다 (correct)
+
+### 어미 부자연스러움 (Unnatural Endings)
+- WRONG: ...것입니다 → RIGHT: ...것입니다 (sometimes OK) / ...거예요 / ...합니다
+- WRONG: ...합니다. 이것은 중요합니다 → RIGHT: ...합니다. 이는 중요합니다
+
+### 한자어 과다 사용 (Overuse of Sino-Korean)
+- WRONG: 정보를 입수합니다 → RIGHT: 정보를 얻습니다 / 정보를 가져옵니다
+- WRONG: 조사를 실시합니다 → RIGHT: 조사를 합니다 / 조사를 진행합니다
+- WRONG: 확인을 실시합니다 → RIGHT: 확인합니다
+
+### 존댓말 혼용 (Inconsistent Politeness)
+- WRONG: 데이터를 읽어. 그리고 처리합니다 → RIGHT: 데이터를 읽고, 그리고 처리합니다
+- WRONG: 코드가 실행됩니다. 결과를 봐 → RIGHT: 코드가 실행됩니다. 결과를 확인하세요

@@ -1,0 +1,12 @@
+이 함수를 사용하여 데이터를 진행합니다. 먼저 설정을 완료해야 합니다.
+
+```python
+def process(data):
+    return data.transform()
+```
+
+그 다음 API를 호출하여 결과를 가져옵니다. https://api.example.com/v1/data
+
+- 첫 번째 단계: 데이터 수집
+- 두 번째 단계: 데이터 분석 진행
+- 세 번째 단계: 결과를 출력합니다

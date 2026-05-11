@@ -1,0 +1,31 @@
+server:
+  host: "0.0.0.0"
+  port: 8787
+
+providers:
+  gemini:
+    api_key: ""  # your Google Gemini API key
+    model: "gemini-2.5-flash"
+    base_url: "https://generativelanguage.googleapis.com/v1beta"
+  openai:
+    api_key: ""  # OpenAI key, or an OpenRouter key (sk-or-v1-...) if base_url is OpenRouter
+    model: "gpt-4o-mini"
+    base_url: "https://api.openai.com/v1"
+
+defaults:
+  provider: "gemini"
+  tone: "casual"
+  mode: "auto"
+
+detector:
+  korean_ratio_threshold: 0.10
+  min_korean_chars: 10
+
+cache:
+  enabled: true
+  ttl_hours: 24
+  db_path: "cache.db"
+
+logging:
+  corrections_file: "logs/corrections.jsonl"
+  level: "INFO"
