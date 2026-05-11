@@ -16,3 +16,7 @@ logs/
 .DS_Store
 .idea/
 .vscode/
+*.save
+*.swp
+*.swo
+*~
